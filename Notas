@@ -29,4 +29,5 @@ COMANDOS CLAVES PARA REALIZAR EL PROYECTO
 - git branch  #Mostrar los repositorios que hay.
 - git branch (nombre)  #Para crear branchs
 - git checkout (nombre)  #Para cambiarse al branch que quieras seleccionar.
+- git merge  #Juntar repositorios de forma individual sin subirlo a la nube.
 
