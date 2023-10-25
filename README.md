@@ -1,2 +1,6 @@
 # Clase8
-Ejemplo de gestión de aplicación pyqt5 usando git
+Proyecto para aprender a manejar git y github
+
+## Caracteristicas
+* Funcion que suma 5 enteros de una lista
+* Manejo de listas
