@@ -1,3 +1,5 @@
+import problema1
+
 edad = 12
 altura = 1.75
 nombre = "Juan"
@@ -30,3 +32,7 @@ if __name__ == '__main__':
     print()
     # Mostrar un valor exacto de lista, siempre inicia en 0 el primer elemento.
     print(lista1[3])
+
+    print()
+
+    problema1.sumar_5_enteros()
