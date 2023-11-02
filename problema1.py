@@ -1,22 +1,25 @@
 def sumar_5_enteros():
+    #definicion de variable
     lista = []
-    contadorWhile = 0
-    tamano = 5
+    contadorwhile = 0
+    tamaño = 5
     suma = 0
 
-    while contadorWhile < tamano:
-        # Agregar numeros a la lista.
-        lista.append(int(input("Ingrese numero " + str(contadorWhile+1) + ": ")))
-        contadorWhile += 1
 
-    contadorWhile = 0
-    while contadorWhile < tamano:
-        suma += lista[contadorWhile]
-        contadorWhile += 1
+    #ingresar los numeros
+    while contadorwhile < tamaño:
+        lista.append(int(input("Ingrese numero" + str(contadorwhile + 1) + ": ")))
+        contadorwhile += 1
 
-    print("Los elementos de la lista son:")
+    #sumar  los numeros
+    contadorwhile = 0
+    while contadorwhile < tamaño:
+        suma += lista[contadorwhile]
+        contadorwhile += 1
+
+    print("los elementos de la lista son:")
     for numero in lista:
-        print(numero,end=", ")
+        print(numero, end=', ')
 
-    print("\nLa suma de todos sus elementos es:")
+    print("\nla suma de todos sus elementos es:")
     print(suma)
