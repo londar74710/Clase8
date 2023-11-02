@@ -1,4 +1,5 @@
 def alumnos():
+    print("hola mundo")
 
     alumnos = []
 
